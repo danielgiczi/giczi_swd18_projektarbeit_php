@@ -11,4 +11,8 @@
     require_once("Probes.php");
 
     require_once("DepthFirstSearchAlgorithm.php");
+    require_once("BreadthFirstSearchAlgorithm.php");
+    require_once("DijkstraGraph.php");
+    require_once("DijkstraAlgorithm.php");
+    require_once("AStarAlgorithm.php");
 ?>
