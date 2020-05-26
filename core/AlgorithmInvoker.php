@@ -25,7 +25,7 @@ class AlgorithmInvoker {
 
         $startTime = microtime(true);
         $result = $algorithm->run();
-        $result->ms = microtime(true) - $startTime;
+        $result->ms = round((microtime(true) - $startTime) * 1000);
         $result->found = count($result->paths) > 0;
 
         return $result;
