@@ -1,6 +1,5 @@
 <?php
 
-
 class AlgorithmInvoker {
 
     public function Invoke($data) {
